@@ -1,10 +1,10 @@
 
-import profile from './profile.png';
+import profile from './me.jpeg';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Aiden Min",
   links: [
     {
       title: "About",
@@ -29,8 +29,8 @@ export const navigation = {
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm AIden",
+  description: "Living in Korea. Majoring in computing science in SKKU",
   image: profile.src,
   buttons: [
     {
@@ -40,32 +40,50 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "",
       isPrimary: false,
     },
   ],
 }
 
-export const about = {
-  title: "Who I am",
+export const aboutSkills = {
+  title: "Skills",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "interested in NLP",
+    "Language: English and korean",
+    "Programing language: Python, Java",
   ],
 }
 
-export const work = {
-  title: "What I do",
+export const aboutEdu = {
+  title: "Education",
+  description: [
+    "Majoring in computer science at SKKU, BS",
+    "Main interest: NLP",
+    "Class I'm taking: understanding deep learning, Open Software Sorce Practice",
+  ],
+}
+
+
+export const aboutAch = {
+  title: "Achievements",
+  description: [
+    "TOEIC, OPIC",
+  ],
+}
+
+
+export const contact = {
+  title: "Contact",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "E_mail",
+      description: "khmin101@naver.com",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "Git Hub",
+      description: "github.com/aiden890/",
       icons: null,
     }
   ],
@@ -115,22 +133,7 @@ export const projects = {
   ],
 }
 
-export const contact = {
-  title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
-  buttons: [
-    {
-      title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
-      isPrimary: true,
-    },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
-    },
-  ]
-}
+
 
 // SEARCH ENGINE 
 export const SEO = {

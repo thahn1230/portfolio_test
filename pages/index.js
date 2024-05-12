@@ -3,7 +3,7 @@ import { Nav } from '../components/Navbar';
 import { Intro, About } from '../components/Intro';
 import { Skills, Projects } from '../components/Work';
 import { Footer, Contact } from '../components/Footer';
-import { about, contact, intro, navigation, projects, SEO, work } from '../config/config';
+import { aboutSkills, aboutEdu, aboutAch, contact, intro, navigation, projects, SEO} from '../config/config';
 import { Header } from '../components/Header';
 
 export default function Home() {
@@ -21,21 +21,24 @@ export default function Home() {
         buttons={intro.buttons}
       />
       <About
-        title={about.title}
-        description={about.description}
+        title={aboutSkills.title}
+        description={aboutSkills.description}
+      />
+      <About
+        title={aboutEdu.title}
+        description={aboutEdu.description}
+      />
+      <About
+        title={aboutAch.title}
+        description={aboutAch.description}
       />
       <Skills
-        title={work.title}
-        cards={work.cards}
+        title={contact.title}
+        cards={contact.cards}
       />
       <Projects
         title={projects.title}
         cards={projects.cards}
-      />
-      <Contact
-        title={contact.title}
-        description={contact.description}
-        buttons={contact.buttons}
       />
       <Footer />
     </Fragment>
